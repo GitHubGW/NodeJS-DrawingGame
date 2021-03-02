@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-drawinggame",
+  "version": "1.0.0",
+  "description": "NodeJS-DrawingGame",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHubGW/NodeJS-DrawingGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitHubGW/NodeJS-DrawingGame/issues"
+  },
+  "homepage": "https://github.com/GitHubGW/NodeJS-DrawingGame#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/node": "^7.13.0",
+    "@babel/preset-env": "^7.13.9",
+    "express": "^4.17.1",
+    "pug": "^3.0.2",
+    "socket.io": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js"
+  }
+}
