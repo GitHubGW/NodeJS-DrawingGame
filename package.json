@@ -17,12 +17,17 @@
     "@babel/core": "^7.13.8",
     "@babel/node": "^7.13.0",
     "@babel/preset-env": "^7.13.9",
+    "eslint": "^7.21.0",
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "pug": "^3.0.2",
     "socket.io": "^3.1.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
   },
   "scripts": {
     "start": "nodemon --exec babel-node src/server.js"
